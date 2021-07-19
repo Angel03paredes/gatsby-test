@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #FFF;
+    align-items: center;
+    background-color: rgb(3, 22, 65);
+}
+
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.nav_ul{
+    display: flex;
+}
+
+body{
+    margin:0px
+}
+
+.nav_li{
+    list-style: none;
+    margin:1rem
+}
+
+.nav_item{
+    text-decoration: none;
+    color:#FFF
+}
+
+.brand{
+    text-decoration: none;
+    color:#FFF;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.container{
+    padding: 0.5rem 1rem;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 30% 70%
+}
+
+.card{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(148,148,148,0.46);
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.card:hover{
+    background-color: rgb(230, 227, 227); 
+    padding:5px 15px;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(6, 26, 73);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(3, 22, 65);
+  }
+
+  .card_profile{
+      display: flex;
+      background-color:  rgb(230, 227, 227); 
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .card_profile>.img{
+      width:240px;
+  }
+
+  .col{
+      margin: 2rem 1rem;
+  }
